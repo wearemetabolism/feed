@@ -34,6 +34,7 @@ interface FeedOptions {
 
   feed: string;
   feedLinks: any;
+  webfeeds: any;
   hub?: string;
 
   author?: Author;
