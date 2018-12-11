@@ -41,6 +41,14 @@ const feed = new Feed({
     json: "https://example.com/json",
     atom: "https://example.com/atom"
   },
+  webfeeds:{
+  	analytics: {id:'UA-xxxx', engine:'GoogleAnalytics'},
+  	accentColor: '00FA71',
+  	logo: `http://example.com/logo.png`,
+  	cover: `http://example.com/cover.jpg`,
+  	icon: `http://example.com/icon.png`,
+  	related: {layout:'card', target:'browser'}
+  },
   author: {
     name: "John Doe",
     email: "johndoe@example.com",
